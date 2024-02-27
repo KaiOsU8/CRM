@@ -1,0 +1,18 @@
+INSERT INTO `bedrijfs` (`id`, `bedrijfsnaam`, `kvk_nummer`, `isbedrijf`, `created_at`, `updated_at`) VALUES 
+(NULL, 'meow', '12345678', '1', NULL, NULL),
+(NULL, 'picky', '12234278', '1', NULL, NULL),
+(NULL, 'wiki', '12876538', '1', NULL, NULL),
+(NULL, 'ricky', '18765438', '1', NULL, NULL),
+(NULL, 'tricky', '12152678', '1', NULL, NULL),
+(NULL, 'meowtwee', '12599998', '0', NULL, NULL),
+(NULL, 'meowvijf', '11952358', '0', NULL, NULL),
+(NULL, 'kraker', '18716678', '1', NULL, NULL);
+
+INSERT INTO `contacts` (`id`, `bedrijf_id`, `voornaam`, `achternaam`, `straat`, `huisnummer`, `postcode`, `plaats`, `email`, `telefoonnummer`, `functie`, `created_at`, `updated_at`) VALUES 
+(NULL, '2', 'fhdfgh5', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'email425@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '3', 'vooam25', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'email23425@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '4', 'meowm', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'emai4315l25@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '5', 'voornaam25', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'emai134125l25@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '6', 'kraker', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'email124525@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '7', 'voozakeram25', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'emai7635l25@example.com', 'telefoonnummer25', 'functie25', NULL, NULL),
+(NULL, '9', 'voblablanaam25', 'achternaam25', 'straat25', 'huisnummer25', 'postcode25', 'plaats25', 'email25@example.com', 'telefoonnummer25', 'functie25', NULL, NULL);
